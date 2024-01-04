@@ -6,6 +6,9 @@ app.get('/',(req,res)=>{
     res.send("hello");
 });
 
+app.get('/about',(req,res)=>{
+    res.send("<h1>About me</h1>")
+})
 
 
 app.listen(port, () => {
